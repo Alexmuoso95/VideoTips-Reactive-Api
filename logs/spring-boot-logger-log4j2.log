@@ -1,0 +1,12 @@
+2022-01-31 22:31:35,109 INFO o.s.b.StartupInfoLogger [main] Starting DeviceRepositoryTest using Java 15.0.2 on LAPTOP-VK3GKATV with PID 30608 (started by 003044781 in C:\Users\AlejandroMunozOsorio\eclipse-workspace\VideoTips-Reactive-Api)
+2022-01-31 22:31:35,118 INFO o.s.b.SpringApplication [main] The following profiles are active: test
+2022-01-31 22:31:35,435 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2022-01-31 22:31:35,598 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 157 ms. Found 1 Reactive MongoDB repository interfaces.
+2022-01-31 22:31:35,858 INFO c.m.d.l.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-01-31 22:31:35,943 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='61f8b7a7e34247018646aa3d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:48}] to localhost:27017
+2022-01-31 22:31:35,943 INFO c.m.d.l.SLF4JLogger [cluster-rtt-ClusterId{value='61f8b7a7e34247018646aa3d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:49}] to localhost:27017
+2022-01-31 22:31:35,943 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='61f8b7a7e34247018646aa3d', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23525700}
+2022-01-31 22:31:36,343 INFO o.s.b.StartupInfoLogger [main] Started DeviceRepositoryTest in 2.037 seconds (JVM running for 3.102)
+2022-01-31 22:31:37,031 INFO c.m.d.l.SLF4JLogger [Thread-11] Opened connection [connectionId{localValue:4, serverValue:51}] to localhost:27017
+2022-01-31 22:31:37,031 INFO c.m.d.l.SLF4JLogger [Thread-13] Opened connection [connectionId{localValue:3, serverValue:50}] to localhost:27017
+2022-01-31 22:31:37,035 INFO c.m.d.l.SLF4JLogger [Thread-12] Opened connection [connectionId{localValue:5, serverValue:52}] to localhost:27017

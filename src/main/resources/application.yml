@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: local
+---
+restClient:
+  url: "http://localhost:8080/v1/device/get/a"
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: local
+#---
+#logging:
+#  level:
+#    root: debug
